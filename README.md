@@ -8,7 +8,7 @@ This boilerplate has 3 starter components included. The first one (*Dummy*) show
 ## Structure
 Considerations about the boilerplate structure:
 
-![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
+![](https://github.com/MarcelLZ/react-boilerplate/blob/master/assets/general_structure.png)
 
 We have 3 main directories inside **src** -> *components*, *containers* and *screens*. Inside the components directory, you must place super dummy components, such as a simple button. These components do NOT have state and you can use them to mount a slightly smarter component. Smarter components you must place inside the containers directory and these components have a simple state like togglers to show or hide something or these components can have state shared in the redux store. Finally, inside the *screen* directory, you must place the components that will be displayed to the user.
 
